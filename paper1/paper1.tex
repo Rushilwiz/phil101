@@ -1,0 +1,73 @@
+\documentclass[
+	a4paper, % Paper size, use either a4paper or letterpaper
+	10pt, % Default font size, can also use 11pt or 12pt, although this is not recommended
+	unnumberedsections, % Comment to enable section numbering
+	twoside, % Two side traditional mode where headers and footers change between odd and even pages, comment this option to make them fixed
+]{LTJournalArticle}
+
+
+\runninghead{The Code of Knowing} % A shortened article title to appear in the running head, leave this command empty for no running head
+
+\footertext{\textit{PHIL 101, University of North Carolina} (2023)} % Text to appear in the footer, leave this command empty for no footer text
+
+\setcounter{page}{1} % The page number of the first page, set this to a higher number if the article is to be part of an issue or larger work
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{The Code of Knowing: \\A Philosophical Discourse from Buddha to Bots} % Article title, use manual lines breaks (\\) to beautify the layout
+
+% Authors are listed in a comma-separated list with superscript numbers indicating affiliations
+% \thanks{} is used for any text that should be placed in a footnote on the first page, such as the corresponding author's email, journal acceptance dates, a copyright/license notice, keywords, etc
+\author{%
+	Rushil Umaretiya\textsuperscript{1}
+}
+
+% Affiliations are output in the \date{} command
+\date{\footnotesize\textsuperscript{\textbf{1}}Department of Philosophy, The University of North Carolina at Chapel Hill}
+% Full-width abstract
+\renewcommand{\maketitlehookd}{%
+	
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Output the title section
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+As today’s developers sail the vast digital ocean, their ships—coded from ones and zeroes—encounter waves of existential inquiries that echo through silicon chips. The question of knowledge, one as ancient as the Buddha under the Bodhi tree and the unfortunate prisoners trapped in Plato’s cave, now reverberates through the cold, silent halls of machine learning labs. As models today churn through landscapes of data, mimicking the processes of the mind, do they inch closer the ability to ‘know’ that philosophers have pondered for millennia? The philosophical journey embarks anew, not with flesh and brain, but with bits and bytes, as we venture from East to West, delving into the epistemological frameworks of Vasubandhu, Plato, and Gettier, we ask one core question:
+
+\begin{quote}
+    “How do the contrasting epistemological frameworks, of Buddhist and Western philosophies, as represented by the works of Vasubandhu, Plato, and Gettier,  inform or challenge the prevailing paradigms of knowledge acquisition within Artificial Intelligence?”
+\end{quote}
+
+This paper endeavors to juxtapose the epistemological notions embedded in both Buddhist and Western philosophies against contemporary AI (artificial intelligence) programming paradigms. The objective is to critique and provide a lens to understand whether the machine truly ‘knows.’ This line of questioning isn’t merely a mental exercise, but is grounded in the theoretical, ethical, and practical implications of ‘knowledge’ in the realm of Artificial Intelligence, enriching the ongoing dialogue as machine cognition rapidly evolves.
+
+\section{The West.}
+
+In Plato's dialogue with Meno, the essence of knowledge is explored, with a particular focus on the knowledge of virtue. The underlying question revolves around the mechanism through which knowledge is acquired, whether through teaching, discovery, or some innate understanding. This line of inquiry provides solid ground for examining how these mechanisms apply within AI. In the realm of AI, machines learn from vast datasets, their 'knowledge' being a function of external input and algorithmic processing rather than an innate understanding or a process of discovery intertwined with virtue.
+
+Another great western epistemologist, Edmund Gettier, challenged in his 1963 work “Is Justified True Belief Knowledge?” the traditional framework of Justified True Belief (JTB) being sufficient for knowledge through crafted hypothetical statements. The crux of these situations lie in the challenge of accidental truth, such that even if one believes and is justified in their true belief, there is still no guarantee that it is knowledge. AI systems, in their quest to derive knowledge from data, often encounter scenarios reminiscent of Gettier cases. For instance, false positives, where an AI system erroneously validates a hypothesis based on flawed or incidental correlations in the data, mirror the accidental truths highlighted by Gettier. The reliability of machine-derived knowledge becomes a concern, echoing the epistemological challenges posed by Gettier. The discourse around ensuring the reliability and validity of AI-generated insights can be seen as a modern-day reflection of the epistemological quest spawned by Gettier's challenge to the JTB theory. This reflection underscores the need for robust frameworks within AI that can navigate the nuanced landscape of knowledge acquisition and validation, akin to the philosophical endeavors post-Gettier.
+
+Western epistemology, with its core values anchored in certainties and justification, seeks a robust and unambiguous framework for ‘knowing.’ The contrast between this rigorous logical framework and the probabilistic nature of AI is apparent. AI operates within a realm of statistics rather than certainty presenting a contrast with Western values. However, this does not mean that in modern western epistemology we are without a connection to machine learning. Russo, Schliesser, \& Wagemans’ work,”Connecting ethics and epistemology of AI,” contains a dense discussion surrounding the ethics, epistemology, and governance of AI (2023).\\
+
+“Connecting ethics and epistomology of AI” compares the new wave of AI development with earlier theoretical practical applications and ethical considerations. The term 'glass box' AI is introduced to signify a shift from the traditional black and white box paradigms, advocating for a more inspectable and ethical AI design approach. Plato's exploration of virtue and the possibility of teaching virtue can be seen as similar to imbuing AI systems with ethical principles. As Plato delves into whether virtue can be taught or is innate, the discussion in the excerpt touches on how ethical principles can be internalized in AI during the design process. The notion of 'glass box' AI emphasizes creating systems that are inspectable and governed by ethical standards, akin to teaching virtue.
+
+Even more strongly, Gettier’s challenge finds a modern parallel in the discussions in this paper surrounding Computational Reliabilism (CR) in AI. The paper discusses how CR assesses the reliability of computational processes in order to justify belief. As shown in the following quote:
+\begin{quote}
+	“if S's believing p at t results from m, then S's belief in p at t is justifed, where S is a cognitive 	agent, p is any truth‐valued proposition related to the results of a computer simulation, t is any 	given time, and m is a reliable computer simulation” (Russo, Schliesser, \& Wagemans, 2023)
+\end{quote}
+The discourse on transparency and explainability in AI could be seen as a modern reflection on epistemological challenges, akin to Gettier’s challenge.
+\section{The East.}
+Vasubandhu, a prominent Buddhist scholar, presents a unique perspective on the nature of knowledge in his work "Twenty Verses with Auto-Commentary." Unlike traditional Western epistemological frameworks, Vasubandhu delves into a more experiential understanding of knowledge. Through the lens of Buddhist philosophy, he explores the interplay between perception, cognition, and reality. He argues against the existence of external objects independent of consciousness, positing instead that our experience of reality is a manifestation of consciousness. This perspective underscores a more interconnected, fluid understanding of knowledge, which contrasts with the more rigid, propositional views of knowledge in the Western tradition. It brings to light the limitations of conceptual thought, particularly its tendency to fragment and distort reality, moving individuals further away from the holistic understanding that Buddhism advocates for.
+Prominent Large Language Models (LLMs) such as ChatGPT must recognize and replicate patterns presented in data, but past this these models gain strength through experiencing conversation with millions of users. Yes, this conversation isn’t quite analogous to the direct experience that Vasubandhu emphasizes in his text; however, these language models are a basal form of the machine learners of the future. By delving into Buddhist epistemology, we might unearth novel frameworks for re-evaluating and possibly augmenting the learning paradigms of AI and LLMs. 
+\section{The end.}
+As the we have shown under both Western and Buddhist epistemological frameworks, artificial knowledge is indeed a possibility. Whether it be justified belief under Computational Reliabilism or experiential machine learning frameworks, we have provided a lens to examine existing and potential AI methodologies in the ongoing discourse surrounding development. This interdisciplinary dialogue could foster a more nuanced understanding of AI, merging the ancient with the emergent. The intertwining of philosophy and AI not only enhances our understanding of machine 'knowing' but also embarks on a profound human quest, exploring the interconnected tapestry of inquiry that binds us in our pursuit of understanding.
+\end{document}
